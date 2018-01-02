@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CommonSwifty_Example' do
+  pod 'CommonSwifty', :path => '../'
+
+  target 'CommonSwifty_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
