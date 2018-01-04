@@ -1,0 +1,22 @@
+{
+  "name": "CommonSwifty",
+  "version": "0.1.0",
+  "summary": "A short description of CommonSwifty.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/hamidire@gmail.com/CommonSwifty",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "hamidire@gmail.com": "hamidire@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/hamidire@gmail.com/CommonSwifty.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CommonSwifty/Classes/**/*"
+}

@@ -1,0 +1,6 @@
+framework module CommonSwifty {
+  umbrella header "CommonSwifty-umbrella.h"
+
+  export *
+  module * { export * }
+}
