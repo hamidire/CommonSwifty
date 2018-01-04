@@ -27,3 +27,11 @@ public func hexStringToUIColor (hex:String) -> UIColor {
         alpha: CGFloat(1.0)
     )
 }
+public func convertEngNumToPersianNum(num: String)->String{
+    let number = NSNumber(value: Int(num)!)
+    let format = NumberFormatter()
+    format.locale = Locale(identifier: "fa_IR")
+    let faNumber = format.string(from: number)
+    
+    return faNumber!
+}
