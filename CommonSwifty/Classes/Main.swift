@@ -6,7 +6,7 @@
 //
 
 import Foundation
-func hexStringToUIColor (hex:String) -> UIColor {
+public func hexStringToUIColor (hex:String) -> UIColor {
     var cString:String = hex.trimmingCharacters(in: .whitespacesAndNewlines).uppercased()
     
     if (cString.hasPrefix("#")) {
