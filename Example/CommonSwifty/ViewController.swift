@@ -7,11 +7,13 @@
 //
 
 import UIKit
+import CommonSwifty
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        hexStringToUIColor(hex: "1212121")
         // Do any additional setup after loading the view, typically from a nib.
     }
 
